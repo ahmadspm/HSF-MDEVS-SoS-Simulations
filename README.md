@@ -1,8 +1,6 @@
 # HSF-MDEVS-SoS-Simulations
 
-This repository contains Abstract models for expriementing HSF with MARKOVE Discrevent Event Sysems Specifications (DEVS) which is a Markovian description of DEVS. 
-
-The Simulations are done using formal transformation methods aided with Model Driven Engineeirng. 
+This repository contains Abstract models for expriementing HSF with MARKOVE Discrevent Event Sysems Specifications (DEVS) which is a Markovian description of DEVS. The Simulations are done using formal transformation methods aided with Model Driven Engineeirng. 
 
 HSF code is transformed from CSs and SOS coalitionS for DEVS and SES from HSF.  
 
