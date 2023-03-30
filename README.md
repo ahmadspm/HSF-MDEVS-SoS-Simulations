@@ -4,7 +4,7 @@ This repository contains Abstract models for expriementing HSF with MARKOV Discr
 
 HSF code is transformed from CSs and SOS coalitionS for DEVS and SES from HSF.  
 
-There are certain limitations in terms of Transformation as MDEVS and HSF have certian differences . Howeever, formal transofrmation rules assist for one to one mapping.
+There are certain limitations in terms of Transformation as MDEVS and HSF have certian differences . For this, formally founded bisimulation transofrmation rules assist for one to one mapping for each of the Architectural Elment from HSF to DEVS specificaitons.
 
 Synthatic Datasets are genrated for SoS coalition1 and Coalition2 for performing various Software Architecural Analysis such as:
 Mission completion Analysis
