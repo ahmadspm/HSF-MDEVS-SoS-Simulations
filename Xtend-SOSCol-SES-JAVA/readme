@@ -1,0 +1,4 @@
+This Tranformations are prototyped for SoS coalitions which are first described in HSF and then mapping is done to be more compatible to DEVS SES. 
+
+It is important to note that some code snipptes need to added manually, for example HSF does not have an Experimental Framee while DEVS has. Similarly DEVS does not support connectors
+while HSF supports as core Architecural Element. 
