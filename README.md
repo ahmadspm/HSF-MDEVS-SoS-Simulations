@@ -1,6 +1,6 @@
 # HSF-MDEVS-SoS-Simulations
 
-This repository contains Abstract models for expriementing HSF with MARKOV Discrevent Event Sysems Specifications (MDEVS) which is a Markovian description of DEVS. For Stochastic simulation of smart system architecutre models MS4 me TOOL Suite is used which provides Markvian classes for complex systems simulations.  The Simulations are done using formal transformation methods aided with Model Driven Engineeirng. 
+This repository contains Abstract models for expriementing HSF with MARKOV Discrevent Event Sysems Specifications (MDEVS) which is a Markovian description of DEVS. Markov models are described using HSF DSL developed using Eclipse Modelling Framework coupled with Xtext and Xtend technologies. For Stochastic simulation of smart system architecutre models MS4 me TOOL Suite is used which provides Markvian classes for complex systems simulations.  The Simulations are done using formal transformation methods aided with Model Driven Engineeirng. 
 
 HSF code is transformed from CSs and SOS coalitionS for DEVS and SES from HSF.  
 
