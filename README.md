@@ -8,8 +8,11 @@ There are certain limitations in terms of Transformation as MDEVS and HSF have c
 Formal transformation of HSF based SoS architecture models are validated through Xtend transformed to DEVSNL model and SES models for DEVS. Certain Tweaking and adjustments have been made manually at later stage to conform the mapping to corresponding Markov Classes, respective to atomic models. Additionally Experimental Frames are added to SES as coupled model for representing SoS coalitions. 
 
 Synthetic Datasets are generated for SoS Coalition1 and Coalition2 for performing various Software Architectural Analysis such as:
+
 •	Mission completion Analysis,
+
 •	SoS Behaviour Analysis,
+
 •	and SoS coalitions conformance to system requirements during missions
 
 This is unique approach exploring SoS Dynamics using Markovian Semantics specifically adopted for Software Architecture Models.
