@@ -16,3 +16,12 @@ Synthetic Datasets are generated for SoS Coalition1 and Coalition2 for performin
 •	and SoS coalitions conformance to system requirements during missions
 
 This is unique approach exploring SoS Dynamics using Markovian Semantics specifically adopted for Software Architecture Models.
+
+# Citation
+
+@software{ahmadspm_HSF_MDEVS_SoS_Simulations,
+author = {Ahmad Mohsin},
+title = {HSF-MDEVS-SMART SYSTEMS-Simulations: Smart Systems Software Architecture Modelling and Simulation},
+year = {2024},
+url = {https://github.com/ahmadspm/HSF-MDEVS-SoS-Simulations}
+}
