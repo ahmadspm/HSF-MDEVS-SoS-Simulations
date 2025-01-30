@@ -1,5 +1,8 @@
+package my.package.HSFSOSDSL;
 
-
+/**
+ * Class representing an IoT System with Flame and Smoke Sensors.
+ */
 public class IoT_SFS extends AtomicDEVS {
     // Define input and output ports
     public InputPort FlameSensor;
@@ -17,7 +20,15 @@ public class IoT_SFS extends AtomicDEVS {
     private boolean Fdata;
     private boolean Sdata;
     
-    // Constructor
+    /**
+     * Constructor for IoT_SFS.
+     * 
+     * @param name Name of the IoT system
+     * @param Trate1 Transmission rate 1
+     * @param Trate2 Transmission rate 2
+     * @param Trate3 Transmission rate 3
+     * @param Trate4 Transmission rate 4
+     */
     public IoT_SFS(String name, double Trate1, double Trate2, double Trate3, double Trate4) {
         super();
         this.name = name;
@@ -37,7 +48,12 @@ public class IoT_SFS extends AtomicDEVS {
         Sdata = false;
     }
     
-    // ExtTrans function
+    /**
+     * External transition function.
+     * 
+     * @param e Elapsed time since last event
+     * @param x Incoming message
+     */
     public void extTransfn(double e, Message x) {
         if (x.port == FlameSensor) {
             Fdata = (Boolean) x.value;
@@ -48,12 +64,18 @@ public class IoT_SFS extends AtomicDEVS {
         }
     }
     
-    // IntTrans function
+    /**
+     * Internal transition function.
+     */
     public void intTransfn() {
         // Do nothing
     }
     
-    // Output function
+    /**
+     * Output function.
+     * 
+     * @return Message generated as output
+     */
     public Message out() {
         Message m = new Message();
         if (Fdata) {
@@ -68,12 +90,36 @@ public class IoT_SFS extends AtomicDEVS {
         return m;
     }
     
-    // TimeAdvance function
+    /**
+     * Time advance function.
+     * 
+     * @return Time until next event
+     */
     public double timeAdvancefn() {
         if (Fdata || Sdata) {
             return 0;
         } else {
             return INFINITY;
         }
+    }
+    
+    /**
+     * Method to handle warning messages.
+     * 
+     * @param message Warning message
+     * @param args Additional arguments
+     */
+    private void warning(String message, Object... args) {
+        // Implementation for warning messages
+    }
+
+    /**
+     * Method to handle error messages.
+     * 
+     * @param message Error message
+     * @param args Additional arguments
+     */
+    private void error(String message, Object... args) {
+        // Implementation for error messages
     }
 }
