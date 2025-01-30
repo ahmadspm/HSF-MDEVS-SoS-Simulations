@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.java text
+*.md text
+*.xml text
+
+# Declare binary files to avoid automatic line ending conversion
+*.jar binary
+*.war binary
+*.ear binary
+*.class binary
+
+# Custom diff settings for certain file types
+*.java diff=java
